@@ -59,13 +59,13 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
+    title: "Legacy Registration",
     url: "#signup",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Legacy Sign in",
     url: "#login",
     onlyMobile: true,
   },

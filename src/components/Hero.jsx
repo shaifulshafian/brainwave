@@ -23,9 +23,10 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Dream On Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+            {/*Dream On Possibilities of&nbsp;AI&nbsp;With {` `}*/}
+            Dream On Possibilities With {` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+              Education Millenials{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,8 +37,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            Our primary function is to be a platform in bridging the gap between
+            people, education and industry and furthermore a place of knowledge
+            and skills in translating it through social, economy, culture and
+            ecology understanding.
           </p>
           <Button href="/pricing" white>
             Get started
@@ -71,8 +74,22 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
+                    className="hidden absolute -right-[5.5rem] bottom-[20rem] w-[18rem] xl:flex"
+                    title="Cilakak"
+                  />
+                </ScrollParallax>
+
+                <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
                     title="Code generation"
+                  />
+                </ScrollParallax>
+
+                <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
+                    className="hidden absolute -right-[5.5rem] bottom-[2rem] w-[18rem] xl:flex"
+                    title="Cilakak"
                   />
                 </ScrollParallax>
               </div>
